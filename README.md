@@ -46,7 +46,7 @@ save file.
 
 systemctl restart docker
 
-#Start oc server
+# Start oc server
 **** start oc server by provide your id appress.
 
 oc cluster up --public-hostname= your ip address.
@@ -63,7 +63,7 @@ oc project default
 
 oc status
 
-#Login
+# Login
 **** Login as 
 username : developer
 password : developer.
