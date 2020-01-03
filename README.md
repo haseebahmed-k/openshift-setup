@@ -1,6 +1,6 @@
 # openshift-setup-locally
 
-#Download the docker
+# Setup docker
 
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | apt-key add -
 
