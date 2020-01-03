@@ -1,4 +1,4 @@
-# openshift-setup
+# openshift-setup-locally
 
 #Download the docker
 
@@ -16,7 +16,7 @@ systemctl status docker
 **move to folder opt.
 cd /opt
 
-*** Install open shift from github.
+# Install open shift from github.
 
 wget https://github.com/openshift/origin/releases/download/v3.9.0/openshift-origin-client-tools-v3.9.0-191fece-linux-64bit.tar.gz
 
@@ -46,6 +46,7 @@ save file.
 
 systemctl restart docker
 
+#Start oc server
 **** start oc server by provide your id appress.
 
 oc cluster up --public-hostname= your ip address.
@@ -62,6 +63,7 @@ oc project default
 
 oc status
 
+#Login
 **** Login as 
 username : developer
 password : developer.
